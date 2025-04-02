@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Uğurlu - Mobil Uygulama Geliştirici</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Ali Uğurlu</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Mobil Uygulama Geliştirici</h1>
+                <p>Android ve iOS platformları için yenilikçi çözümler</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Mobil Projelerim</h2>
+            <div class="platform-tabs">
+                <button class="tab active" data-platform="all">Tümü</button>
+                <button class="tab" data-platform="android">Android</button>
+                <button class="tab" data-platform="ios">iOS</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Android Project 1 -->
+                <div class="project-card" data-platform="android">
+                    <div class="project-image">
+                        <img src="images/android-project1.jpg" alt="Android Proje 1">
+                        <div class="platform-badge android">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Akıllı Ev Kontrolü</h3>
+                        <p>IoT cihazları için geliştirilmiş kapsamlı kontrol uygulaması</p>
+                        <div class="tech-stack">
+                            <span>Kotlin</span>
+                            <span>MVVM</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- iOS Project 1 -->
+                <div class="project-card" data-platform="ios">
+                    <div class="project-image">
+                        <img src="images/ios-project1.jpg" alt="iOS Proje 1">
+                        <div class="platform-badge ios">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Takip</h3>
+                        <p>Kişiselleştirilmiş fitness programı ve beslenme takibi</p>
+                        <div class="tech-stack">
+                            <span>Swift</span>
+                            <span>SwiftUI</span>
+                            <span>HealthKit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Android Project 2 -->
+                <div class="project-card" data-platform="android">
+                    <div class="project-image">
+                        <img src="images/android-project2.jpg" alt="Android Proje 2">
+                        <div class="platform-badge android">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Ticaret Uygulaması</h3>
+                        <p>Modern arayüzlü alışveriş deneyimi</p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Retrofit</span>
+                            <span>Room DB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>İletişime Geçin</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:contact@aliugurlu.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        contact@aliugurlu.com
+                    </a>
+                    <a href="https://github.com/aliugurlu" class="contact-item" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/aliugurlu" class="contact-item" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Ali Uğurlu. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
